@@ -1,0 +1,33 @@
+.div1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  height: 100%;
+  width: 99.4%;
+}
+
+#div2{
+  box-sizing: border-box;
+  border: 12px solid transparent;
+  width: 30%;
+  border-image-source: url(border.png);
+  border-image-slice: 45%;
+  border-image-repeat: round;
+  background-color: #DEDCCF;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+span{
+  color: rgb(255, 0, 0);
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+body{
+  background-image: linear-gradient(rgb(0,20,0),rgb(0,21,0),rgb(0, 22, 0),rgb(0, 23, 0),rgb(0, 22, 0),rgb(0, 21, 0),rgb(0, 20, 0));
+}
