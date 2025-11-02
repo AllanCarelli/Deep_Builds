@@ -29,9 +29,19 @@ span{
 }
 
 body{
-  background-image: linear-gradient(rgb(0,20,0),rgb(0,21,0),rgb(0, 22, 0),rgb(0, 23, 0),rgb(0, 22, 0),rgb(0, 21, 0),rgb(0, 20, 0));
+  background-image: radial-gradient(rgb(0,20,0),rgb(0,21,0),rgb(0, 22, 0),rgb(0, 23, 0),rgb(0, 22, 0),rgb(0, 21, 0),rgb(0, 20, 0));
 }
 
 a{
   color:  rgb(255, 0, 0);
+}
+
+.link{
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-image: radial-gradient(rgb(0,20,0),rgb(0,21,0),rgb(0, 22, 0),rgb(0, 23, 0),rgb(0, 22, 0),rgb(0, 21, 0),rgb(0, 20, 0));
+  padding:1.1em;
+  border-image-source: url(border.png);
+  border-image-slice: 4;
+  border-image-repeat: round;
 }
