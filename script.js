@@ -12,6 +12,7 @@ builds_links("IGV21", "https://deepwoken.co/builder?id=K1AJLVYm", "Ignis Glacial
 builds_links("IGV20", "https://deepwoken.co/builder?id=OT1dgk3r", "Ignis Glacialis V2.0")
 builds_links("IGV10", "https://deepwoken.co/builder?id=az0C9axo", "Ignis Glacialis V1.0")
 builds_links("SSV10", "https://deepwoken.co/builder?id=7S4ervmz", "Silent Soul V1.0")
+builds_links("CVV10", "https://deepwoken.co/builder?id=6QlEt6ZQ", "CryoVortex V1.0")
 
 
 
