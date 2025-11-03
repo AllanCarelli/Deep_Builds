@@ -1,8 +1,9 @@
 .div1 {
   display: flex;
+  position:absolute;
   text-align: center;
   height: 100%;
-  width: 99.4%;
+  width: 90%;
 }
 
 #div2{
@@ -49,4 +50,8 @@ a{
 #bpve{
   font-family:monospace;
   font-size: 300%;
+}
+
+#discord{
+  font-size: 200%;
 }

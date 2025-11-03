@@ -1,5 +1,6 @@
 let IGV21 = document.getElementById("link_IGV21")
 let IGV10 = document.getElementById("link_IGV10")
+let discord = document.getElementById("discord")
 const linkss = document.getElementsByClassName("link")
 
 
@@ -15,5 +16,6 @@ id.addEventListener("mouseleave", function(){
 
 builds_links(IGV21, "https://deepwoken.co/builder?id=K1AJLVYm", "Ignis Glacialis V2.1 (Sub Procella)")
 builds_links(IGV10, "https://deepwoken.co/builder?id=az0C9axo", "Ignis Glacialis V1.0")
+builds_links(discord, "https://discord.gg/zzC88pmnP", "Discord")
 
 
