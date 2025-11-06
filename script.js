@@ -8,6 +8,22 @@ id1.addEventListener("mouseleave", function(){
 })
 }
 
+let zoom = Math.round(window.devicePixelRatio * 100)
+
+const styleSheets = document.styleSheets;
+let p = 20;
+
+for (let sheet of styleSheets) {
+  for (let rule of sheet.cssRules) {
+    if (rule.selectorText === '.links-section') {
+      rule.style.fontSize = `${(rule.style.fontSize*p)/100}%`; // Exemplo: mudar a cor do texto
+    }
+    if (rule.selectorText === '.links-section') {
+      rule.style.fontSize = `${(rule.style.fontSize*p)/100}%`; // Exemplo: mudar a cor do texto
+    }
+  }
+}
+
 builds_links("IGV21", "https://deepwoken.co/builder?id=K1AJLVYm", "Ignis Glacialis V2.1 (Sub Procella)")
 builds_links("IGV20", "https://deepwoken.co/builder?id=OT1dgk3r", "Ignis Glacialis V2.0")
 builds_links("IGV10", "https://deepwoken.co/builder?id=az0C9axo", "Ignis Glacialis V1.0")
