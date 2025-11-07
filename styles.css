@@ -26,7 +26,7 @@ span{
 #logo{
   display: flex;
   justify-content: center;
-  height: 200px;
+  height: auto;
 }
 
 body{
@@ -71,3 +71,4 @@ a{
 #discord-logo:hover{
   position:absolute; max-width: 100%; height: auto; width: 60%;bottom:5%;right:19%;margin:auto
 }
+
