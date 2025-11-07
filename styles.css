@@ -60,3 +60,14 @@ a{
 #mini-texto{
   position: relative;font-size: 0.5em; color: white;z-index: 10;
 }
+.links-section:hover{
+  font-size: 110%;
+}
+
+#discord-logo{
+  position:absolute; max-width: 100%; height: auto; width: 50%;bottom:10%;right:24%;margin:auto
+}
+
+#discord-logo:hover{
+  position:absolute; max-width: 100%; height: auto; width: 60%;bottom:5%;right:19%;margin:auto
+}
